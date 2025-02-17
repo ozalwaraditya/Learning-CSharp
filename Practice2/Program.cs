@@ -6,24 +6,24 @@
         {
             //*****************   CODE 4 - Array display in reverse order.
 
-            Console.Write("Enter the size of the array : ");
-            var siz = Console.ReadLine();
-            var size = int.Parse(siz);
-            int[] array = new int[size];
+            //Console.Write("Enter the size of the array : ");
+            //var siz = Console.ReadLine();
+            //var size = int.Parse(siz);
+            //int[] array = new int[size];
 
-            for (int k = 0; k < size; k++)
-            {
-                Console.Write($"Enter the {(k + 1)}th element of the array. ");
-                var ele = Console.ReadLine();
-                var element = int.Parse(ele);
-                array[k] = element;
-            }
+            //for (int k = 0; k < size; k++)
+            //{
+            //    Console.Write($"Enter the {(k + 1)}th element of the array. ");
+            //    var ele = Console.ReadLine();
+            //    var element = int.Parse(ele);
+            //    array[k] = element;
+            //}
 
-            Console.WriteLine("Actual Array : ");
-            for (int l = 0; l < size; l++)
-            {
-                Console.Write($"Array " + array[l]);
-            }
+            //Console.WriteLine("Actual Array : ");
+            //for (int l = 0; l < size; l++)
+            //{
+            //    Console.Write($"Array " + array[l]);
+            //}
 
 
 
