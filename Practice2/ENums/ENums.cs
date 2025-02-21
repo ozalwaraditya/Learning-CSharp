@@ -17,7 +17,7 @@ namespace Practice2.ENums
 
     public class ENums
     {
-        public static void Main(string[] args)
+        public static void main(string[] args)
         {
             //----Now getting the values and names of the enums
 
